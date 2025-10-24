@@ -1,9 +1,5 @@
 import numpy as np
 
-def display_tableau(tableau):
-    for row in tableau:
-        print("\t".join(f"{value:.2f}" for value in row))
-
 def retrieve_problem():
     num_vars = int(input("Enter number of variables: "))
     num_const = int(input("Enter number of constraints: "))
